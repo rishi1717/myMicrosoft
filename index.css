@@ -1,0 +1,332 @@
+.fullBody{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    /* background-color: bisque; */
+    color: #2b2b2b;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    color: #2b2b2b;
+}
+
+.leftNav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+}
+
+.logoImg{
+    align-self: center;
+    flex-wrap: wrap;
+    width: 6em;
+}
+
+.navList{
+    display: flex;
+}
+
+.navItem{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    list-style-type: none;
+    padding-right: 1.8em;
+    font-size: small;
+}
+
+.rightBar{
+    display: flex;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    justify-content: center;
+}
+
+.dropdown{
+    display: flex;
+    font-size: small;
+    padding-right: 1em;
+}
+
+.dropdownButton{
+    align-self: center;
+}
+
+.rightBarItem{
+    align-self: center;
+    padding-left: 1.8em;
+}
+
+.profileIcon{
+    font-weight: 100;
+    padding-right: 1em;
+}
+
+.introDiv{
+    width: 100%;
+    height: 33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("RE4DRie.webp");
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+}
+
+.introInfo{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-left: 5%;
+    margin-top: auto;
+}
+
+.introHead{
+    font-size: 1.4em;
+    font-weight: 550;
+    color: black;
+    margin-bottom: 0.8em;
+}
+
+.introDetails{
+    color: black;
+}
+
+.introButtons{
+    margin-top: 1.8em;
+    display: flex;
+}
+
+.sixPeople{
+    background-color: black;
+    color: white;
+    padding: 0.6em 1em;
+}
+
+.onePerson{
+    align-self: center;
+    font-weight: 550;
+    color: black;
+    margin-left: 3em;
+}
+
+.introFoot{
+    align-self: center;
+    margin-top: auto;
+    font-size: 0.4em;
+    color: black;
+    padding-bottom: 3em;
+}
+.introFootIcon{
+    padding-left: 1.6em;
+}
+
+.introLinks{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+.introLink{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 1.6em;
+    color: black;
+    font-weight: 500;
+}
+
+.introIcon{
+    align-self: center;
+}
+
+.introText{
+    text-align: center;
+}
+
+.latestRow{
+    display: flex;
+    padding-bottom: 3em;
+}
+
+.latest{
+    flex: 1;
+    color: black;
+}
+
+.latestHead{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 1.5em;
+}
+
+.latestText{
+    width: 87%;
+    font-size: 0.95em;
+    margin-top: 0.6em;
+}
+
+.latestLink{
+    margin-top: 1em;
+    color: #005DA6;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.oneDrive{
+    background-image: url("RE3hFDE.webp");
+    height: 33vw;
+    background-repeat: no-repeat,repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+.oneDriveInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding: 2em;
+    width:40%;
+}
+
+.oneDriveHead{
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.oneDriveText{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.93em;
+}
+
+.oneDriveButton{
+    display: flex;
+}
+
+.buttonOneDrive{
+    background-color: black;
+    color: white;
+    padding: 0.6em 1.6em;
+}
+
+.business{
+    display: flex;
+    flex-direction: column;
+}
+
+.businessHead{
+    color: black;
+    padding-top: 1.5em;
+    padding-bottom: 1em;
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+.businessBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.covid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    color: black;
+    padding: 2em 0;
+}
+
+.covidHead{
+    font-size: 2.1em;
+    font-weight: 600;
+}
+
+.covidText{
+    padding: 0.5em 0;
+    font-size: 0.95em;
+}
+
+.covidLink{
+    font-weight: 500;
+}
+
+.follow{
+    display: flex;
+    margin-top: 3em;
+}
+
+.followImage{
+    margin-left: 1em;
+}
+
+.footer{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    color: #616161;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding: 1em 4em;
+    margin-top: 3em;
+}
+
+.footer1{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.footerHead{
+    margin-top: 1em;
+    font-weight: 500;
+    margin-bottom: 0.6em;
+}
+
+.footerItemClass{
+    list-style-type: none;
+    padding-left: 0em;
+    font-size: 0.75em;
+    font-weight: 350;
+}
+
+.footerItemClass>li{
+    padding: 0.7em 0;
+}
+
+.footer2{
+    display: flex;
+    font-size: 0.75em;
+    margin-top: 2em;
+}
+
+.leftfooter{
+    display: flex;
+}
+
+.langIcon{
+    font-size: 1.6em;
+}
+
+.lang{
+    align-self: center;
+    margin-left: 1em;
+}
+
+.rightfooter{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.rightfootItem{
+    margin-left: 2em;
+}
