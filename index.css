@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 90%;
     margin: auto;
-    /* background-color: bisque; */
+    cursor: default;
     color: #2b2b2b;
     font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
@@ -101,9 +101,15 @@
 }
 
 .sixPeople{
+    display: flex;
     background-color: black;
     color: white;
     padding: 0.6em 1em;
+    transition: ease-in-out 0.2s;
+}
+
+.rightArrow{
+    margin-left: 0.8em;
 }
 
 .onePerson{
@@ -216,6 +222,7 @@
     background-color: black;
     color: white;
     padding: 0.6em 1.6em;
+    transition: ease 0.2s;
 }
 
 .business{
@@ -329,4 +336,87 @@
 
 .rightfootItem{
     margin-left: 2em;
+}
+
+.logo:hover{
+    cursor: pointer;
+}
+
+.navItem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.dropdownButton:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rightBarItem:hover{
+    cursor: pointer;
+}
+
+.introDiv:hover{
+    cursor: pointer;
+}
+
+.sixPeople:hover{
+    background-color: #2b2b2b;
+    text-decoration: underline;
+}
+
+.onePerson:hover{
+    text-decoration: underline;
+}
+
+.introIcon:hover{
+    cursor: pointer;
+}
+
+.introText:hover{
+    cursor: pointer;;
+    text-decoration: underline;
+}
+
+.latestLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.latest:hover{
+    cursor: pointer;
+}
+
+.oneDrive:hover{
+    cursor: pointer;
+}
+
+.buttonOneDrive:hover{
+    background-color: #2b2b2b;
+    text-decoration: underline;
+}
+
+.covidLink:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.followImage:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.footerItemClass>li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.rightfootItem:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lang:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
